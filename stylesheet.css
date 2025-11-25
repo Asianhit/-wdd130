@@ -1,28 +1,60 @@
-:root{
-    --background-color: blue;
-    --padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 nav {
-    background-color: var(--background-color);
-    padding: var(--padding);
+    background-color: steelblue;
+    padding: 10px;
 }
-
 nav a {
     color: white;
+    padding: 10px;
     display: block;
-    padding: 20%;
 }
 h1 {
-    color: var(--background-color);
+    color: steelblue;
+    padding: 5rem;
 }
- img {
+main {
+    max-width: 640px;
+}
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black; 
-    padding: var(--padding);
-    box-shadow: 0 0 30px;
- }
- p {
-    padding: 10px;
- }
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+    
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+aside h2 {
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}ss
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/* class selection */
+.box {
+  margin: 200px;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
